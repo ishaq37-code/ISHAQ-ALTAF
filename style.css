@@ -276,11 +276,11 @@ section{
     grid-template-columns: 1fr  2fr;
     gap :5rem;
 }
-.resume-box h2{
+.resume-box .heading{
    font-size: 4.5rem;
    text-align: center;
 }
-.resume-cont span{
+.resume-cont  .heading span{
     color: var(--main-color);
 }
 .resume-box .des{
