@@ -421,3 +421,21 @@ section{
     margin-left: 1rem;
     font-size: 1.8rem;
 }
+.protfolio-cont{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 3rem;
+
+}
+.protfolio-details{
+ display: none;
+}
+.protfolio-details.active{
+    display: block;
+}
+.protfolio-box .num{
+    font-size: 8rem;
+    -webkit-text-stroke: .07rem var(--white-color);
+    color: transparent;
+    line-height: 1;
+}
